@@ -1,0 +1,223 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: block;
+}
+nav{
+    color:white;
+}
+.nav-link {
+    color:white;
+    font-size: 20px;
+    margin-left: 40px;
+}
+img{
+    width: 20px;
+    color:white;
+}
+.nav-link:hover {
+    color:white;
+    background-color: rgb(48, 78, 49);
+    border: dotted 2px purple;
+    border-radius: 20%;
+    padding:5px;
+    transition:linear all 400ms;
+}
+ul li:first-child > a:hover + .dropdown-menu{
+    display: inline-block;
+}
+.dropdown-menu.active{
+    display:inline-block;
+}
+ a{
+    text-decoration: none;
+    color:black;
+    margin-left: 15px;
+}
+ul li:first-child a:last-child{
+    margin-left: 40px;
+}
+.user{
+    font-size: 25px;
+    margin-left: 0px;
+    border: solid 2px white;
+    border-radius: 100%;
+    padding: 5px;;
+    margin-right: 20px;
+}
+section{
+    margin-top: 0px;;
+}
+.nav-item .corp-logo{
+    width: 150px;
+    height: 100px;
+}
+.nav1-bg-col{
+    background-color: rgb(33, 31, 31);
+}
+.nav2-bg-col{
+    background-color: #18d278;
+}
+nav input{
+    margin-left: 200px;
+    width:300px;
+    border-radius: 20px;
+    padding:8px;
+    transform: translateX(-100px);
+    box-shadow: 1px 1px 2px 3px rgba(195, 186, 186, 0.5);
+}
+nav input::placeholder{
+    padding-left: 20px;
+}
+nav button{
+    transform: translateX(-160px);
+}
+nav i + img{
+    width: 90px;
+    height: 80px;
+}
+#dropdown-close{
+    transform: translateX(50px);
+}
+header nav:first-child li{
+    display: inline-block;
+    width:250px;
+}
+.signIn{
+    border-radius: 20px;
+    padding:8px;
+    text-transform: capitalize;
+    background-color: grey;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.container1{
+    margin-top: 40px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70px;
+}
+.container1 h1{
+    font-size:45px;
+}
+.container1 .row > div:first-child > img{
+    width:100%;
+    height: 450px;
+    border:2px dotted  grey;
+    border-radius: 20px;
+}
+.donations > div{
+    display:flex;
+    align-items: center;
+}
+.donations p{
+    margin-top: 15px;
+    margin-left: 20px;
+    padding: 0;
+}
+.donations div u{
+    margin-left: 20px;
+}
+.container1 .box .see{
+    display: flex;
+}
+.box{
+    padding:30px;
+    box-shadow: 3px 3px 3px 5px rgb(0,0,0,0.5);
+    border-radius: 20px;
+}
+.got{
+    font-size: 34px;
+    font-weight:600;
+}
+.goal{
+    font-size:18px;
+    color:#665d5d;
+    margin-left: 10px;
+}
+.box-top + hr{
+    padding: 0;
+    margin: 0;
+    background-color: #18d278;
+    height: 6px;
+}
+.numb{
+    font-size:18px;
+    color:#665d5d;
+    margin-top: 8px;
+}
+#btns > button{
+    width:100%;
+    background: linear-gradient(to top, rgb(203, 155, 66), rgb(255, 166, 0));
+    margin-top: 20px;
+    font-family:cursive;
+    font-size: 20px;
+}
+.donations{
+    margin-top: 20px;
+}
+.donations img{
+    width:32px;
+}
+.see{
+    margin-top: 10px;
+}
+.see button{
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 20px;
+    width: 130px;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 18px;
+}
+.fundrasier img{
+    width: 40px;
+    border: 3px dotted green;
+    border-radius: 50%;
+}
+.fundrasier{
+    margin-top: 50px;
+    display: flex;
+    align-items: end;
+    justify-content: start;
+}
+.fundrasier p{
+    margin-bottom: 5px;
+    margin-left: 30px;
+    font-size: 18px;
+    font-family: arial;
+}
+.protected{
+    display: flex;
+    width: 300px;
+    border:2px solid black;
+    border-radius: 30px;
+    background: linear-gradient(to bottom, rgb(173, 219, 173), rgb(67, 241, 67));
+}
+.protected img{
+    margin-top: 5px;
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    border:greenyellow 2px solid;
+    padding:5px;
+    margin-left: 15px;
+}
+.protected p{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.just{
+    color:purple;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.about{
+    font-size: large;
+    word-spacing: 5px;
+}

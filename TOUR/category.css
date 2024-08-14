@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: block;
+    background-image: url(https://statics.vinpearl.com/international-travel-0_1684823087.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    color:white;
+}
+.nav-link {
+    color:white;
+    font-size: 20px;
+    margin-left: 40px;
+}
+img{
+    width: 20px;
+    height: 20;;
+    color:white;
+}
+.nav-link:hover {
+    color:white;
+    background-color: rgb(183, 80, 80);
+    border: dotted 2px purple;
+    border-radius: 20%;
+    padding:5px;
+    transition:linear all 400ms;
+}
+ul li:first-child > a:hover + .dropdown-menu{
+    display: inline-block;
+}
+.dropdown-menu.active{
+    display:inline-block;
+}
+ a{
+    text-decoration: none;
+    color:black;
+    margin-left: 15px;
+}
+ul li:first-child a:last-child{
+    margin-left: 40px;
+}
+.user{
+    margin-left: 0px;
+    border: solid 2px white;
+    border-radius: 100%;
+    padding: 5px;;
+    margin-right: 20px;
+}
+section{
+    margin-top: 60px;;
+}
+.nav-item .corp-logo{
+    width: 150px;
+    height: 50px;
+}
+.nav1-bg-col{
+    background-color: rgb(33, 31, 31);
+}
+.nav2-bg-col{
+    background-color: #526070;
+}
+nav input{
+    width:700px;
+    border-radius: 20px;
+    padding:10px;
+    transform: translateX(-100px);
+    box-shadow: 1px 1px 2px 3px rgba(227, 250, 255, 0.5);
+}
+nav input::placeholder{
+    padding-left: 20px;
+}
+nav button{
+    transform: translateX(-160px);
+}
+nav i + img{
+    width: 30px;
+    height: 30px;
+}
+#dropdown-close{
+    transform: translateX(50px);
+}
+header nav:first-child li{
+    display: inline-block;
+    width:250px;
+}
+.items .row > div {
+    background-color: rgb(255, 233, 233);
+    border:rgb(72, 66, 66) 2px dotted;
+    width: 400px;
+    height: 440px;
+    box-shadow: 4px 4px 3px 5px rgb(0,0,0,0.5);
+    border-radius: 30px;
+    padding-top: 8px;
+}
+.container1{
+    width:90%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+}
+.items .row div img{
+    width:370px;
+    border-radius: 10px;
+    height: 300px;
+}
+.items .row img + h5{
+    font-weight: 600;
+    margin-top: 10px;
+}
+.items .row big{
+    color: rgb(62, 61, 61);
+}.items .row div div {
+    line-height:20px;
+}

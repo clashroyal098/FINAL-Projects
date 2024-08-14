@@ -1,0 +1,159 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: block;
+}
+nav{
+    color:white;
+}
+.nav-link {
+    color:white;
+    font-size: 20px;
+    margin-left: 40px;
+}
+img{
+    width: 20px;
+    color:white;
+}
+.nav-link:hover {
+    color:white;
+    background-color: rgb(48, 78, 49);
+    border: dotted 2px purple;
+    border-radius: 20%;
+    padding:5px;
+    transition:linear all 400ms;
+}
+ul li:first-child > a:hover + .dropdown-menu{
+    display: inline-block;
+}
+.dropdown-menu.active{
+    display:inline-block;
+}
+ a{
+    text-decoration: none;
+    color:black;
+    margin-left: 15px;
+}
+ul li:first-child a:last-child{
+    margin-left: 40px;
+}
+.user{
+    font-size: 25px;
+    margin-left: 0px;
+    border: solid 2px white;
+    border-radius: 100%;
+    padding: 5px;;
+    margin-right: 20px;
+}
+section{
+    margin-top: 0px;;
+}
+.nav-item .corp-logo{
+    width: 150px;
+    height: 100px;
+}
+.nav1-bg-col{
+    background-color: rgb(33, 31, 31);
+}
+.nav2-bg-col{
+    background-color: #18d278;
+}
+nav input{
+    margin-left: 200px;
+    width:300px;
+    border-radius: 20px;
+    padding:8px;
+    transform: translateX(-100px);
+    box-shadow: 1px 1px 2px 3px rgba(195, 186, 186, 0.5);
+}
+nav input::placeholder{
+    padding-left: 20px;
+}
+nav button{
+    transform: translateX(-160px);
+}
+nav i + img{
+    width: 90px;
+    height: 80px;
+}
+#dropdown-close{
+    transform: translateX(50px);
+}
+header nav:first-child li{
+    display: inline-block;
+    width:250px;
+}
+.signIn{
+    border-radius: 20px;
+    padding:8px;
+    text-transform: capitalize;
+    background-color: grey;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.bg-img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://donatestock.com/sites/default/files/styles/de2e/public/2021-08/stock-donating.png?itok=yVUUKxj8);
+    width:90%;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    padding-left: 420px;
+    padding-top: 20px;
+    
+
+}
+.bg-img h1{
+    font-size:4.5rem;
+    color:green;
+    
+}
+.bg-img p{
+    margin-top: 210px;
+    font-size:25px;
+}
+.bg-img button{
+    width: 90px;
+    border-radius: 20px;
+    background-color: white;
+    padding: 8px;
+    font-size: larger;
+    margin-left: 130px;
+} 
+.container1{
+    width: 90%;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    border:2px grey solid;
+    border-radius: 20px;
+    padding:50px;
+}
+.row .main-img img{
+    width:100%;
+    height:550px;
+}
+.row .sub-img img{
+    width:100%;
+    height:250px;
+}
+.row hr + p{
+    font-family: calibri;
+    font-size:25px;
+}
+#images img{
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+#images hr{
+    height:5px;
+    background-color: green;
+    width: 80%;
+}
